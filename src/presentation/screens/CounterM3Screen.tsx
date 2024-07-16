@@ -12,9 +12,7 @@ export const CounterM3Screen = () => {
     <View style={ globalStyle.container }>
       <Text style={ globalStyle.title }>{ count }</Text>
 
-      <Icon name="boat-outline" size={ 25 }></Icon>
-
-      <FAB label="Incrementar" 
+      <FAB icon="add-outline"
         style={ globalStyle.fab }
         onPress={ () => setCount(count + 1) }
         onLongPress={ () => setCount(0) }></FAB>
