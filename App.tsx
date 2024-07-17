@@ -1,10 +1,18 @@
 import { SafeAreaView } from 'react-native'
-import { HelloWorldScreen } from './src/presentation/screens/HelloWorldScreen';
-import { CounterScreen } from './src/presentation/screens/CounterScreen';
 import { PaperProvider } from 'react-native-paper';
-import { CounterM3Screen } from './src/presentation/screens/CounterM3Screen';
-
 import IonIcon from 'react-native-vector-icons/Ionicons'
+
+import { 
+  // BoxObjectModelScreen,
+  // CounterM3Screen,
+  // CounterScreen,
+  // DimensionScreen,
+  // FlexDirectionScreen,
+  // FlexScreen,
+  // HelloWorldScreen,
+  HomeworkScreen,
+  // PositionScreen,
+} from './src/presentation/screens';
 
 export const App = () => {
   return (
@@ -12,7 +20,13 @@ export const App = () => {
       <SafeAreaView style={{ flex: 1 }}>
         {/* <HelloWorldScreen name="Jorge Lagos Alvarez"></HelloWorldScreen> */}
         {/* <CounterScreen></CounterScreen> */}
-        <CounterM3Screen></CounterM3Screen>
+        {/* <CounterM3Screen></CounterM3Screen> */}
+        {/* <BoxObjectModelScreen></BoxObjectModelScreen> */}
+        {/* <DimensionScreen></DimensionScreen> */}
+        {/* <PositionScreen></PositionScreen> */}
+        {/* <FlexScreen></FlexScreen> */}
+        {/* <FlexDirectionScreen></FlexDirectionScreen> */}
+        <HomeworkScreen></HomeworkScreen>
       </SafeAreaView>
     </PaperProvider>
   )
